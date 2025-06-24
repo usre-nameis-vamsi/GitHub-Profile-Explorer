@@ -1,0 +1,27 @@
+.root {
+  -fx-font-family: "System";
+}
+
+.button {
+  -fx-cursor: hand;
+}
+
+.button:hover {
+  -fx-opacity: 0.8;
+}
+
+.text-field:focused {
+  -fx-effect: dropshadow(gaussian, rgba(124, 58, 237, 0.5), 5, 0, 0, 0);
+}
+
+.scroll-pane {
+  -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+  -fx-background-color: transparent;
+}
+
+.scroll-pane .content {
+  -fx-background-color: transparent;
+}
